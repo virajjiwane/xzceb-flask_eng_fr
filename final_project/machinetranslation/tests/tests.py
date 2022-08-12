@@ -1,6 +1,7 @@
 import unittest
 
-from translator import english_to_french, french_to_english
+from final_project.machinetranslation.translator import english_to_french, french_to_english
+
 
 class TranslatorModuleTest(unittest.TestCase):
     def test_english_to_french_null_input(self):
